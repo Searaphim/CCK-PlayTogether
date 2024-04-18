@@ -1,3 +1,6 @@
 [submodule "uWindowCapture"]
 	path = uWindowCapture
 	url = https://github.com/Searaphim/uWindowCapture
+[submodule "CVR-PlayTogether"]
+	path = CVR-PlayTogether
+	url = https://github.com/Searaphim/CVR-PlayTogether
