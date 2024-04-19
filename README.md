@@ -1,7 +1,7 @@
 CCK-PlayTogether
 ===================
 
-**CCK-PlayTogether** is an Unity project template for creating CCK Props that interact with CVR-PlayTogether in ChilloutVR.
+**CCK-PlayTogether** is an Unity project template for creating CCK Props that interact with [CVR-PlayTogether](https://github.com/Searaphim/CVR-PlayTogether) in ChilloutVR.
 
 Requirements
 ===================
@@ -9,17 +9,17 @@ Requirements
 - Windows 10 or above
 - Unity 2021.3.23f1
 - ChilloutVR CCK v3.7
-- Latest uWindowsCapture modified for CVR-PlayTogether (https://github.com/Searaphim/uWindowCapture/releases)
-- Latest PlayTogetherLib DLL (https://github.com/Searaphim/CCK-PlayTogether/releases)
 
-How to use
+Setting up your own CCK-PlayTogether Prop
 ----------
 
+- Get the repo's latest release (the zipped source code or clone via git)
 - Launch the project in Unity (or make a new one based on this template)
 - Import ChilloutVR's CCK
-- Import the modified uWindowCapture AND uncheck Plugins/x86 (You will get errors about missing types or namespaces. This is normal.)
-- Copy/Paste the PlayTogetherLib DLL at the root of 'CCK-PlayTogether/Assets/uWindowCapture'
-- Load the 'PropScene' Scene found in 'CCK-PlayTogether/Assets/Scenes'
+- From here you can build your own uWindowCapture if you really want to (otherwise ignore this step). See the [instructions](https://github.com/Searaphim/uWindowCapture)
+- Import the latest custom uWindowCapture package or your own AND uncheck `'Plugins/x86'` if present (You will get errors about missing types or namespaces. This is normal.)
+- Copy/Paste the latest [PlayTogetherLib DLL](https://github.com/Searaphim/CCK-PlayTogether/releases) (OR your own if you built CVR-PlayTogether yourself) to the root of `'CCK-PlayTogether/Assets/uWindowCapture'`
+- Load the 'PropScene' Scene found in `'CCK-PlayTogether/Assets/Scenes'`
 - If you're getting a missing script on the 'Desktop' prop prefab; you must open the prefab and set the script to point to 'uwcWindowTexture'
 - close and reopen the project and make sure you don't have any errors left.
 - On the 'Desktop' prop: edit these parameters of the 'uWc Window Texture' Component:
