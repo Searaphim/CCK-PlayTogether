@@ -22,7 +22,7 @@ Setting up your own CCK-PlayTogether Prop
 - Load the 'PropScene' Scene found in `'CCK-PlayTogether/Assets/Scenes'`
 - If you're getting a missing script on the 'Desktop' prop prefab; you must open the prefab and set the script to point to 'uwcWindowTexture'
 - close and reopen the project and make sure you don't have any errors left.
-- On the 'Desktop' prop: edit these parameters of the 'uWc Window Texture' Component:
+- On the 'PropScreen' prop: edit these parameters of the 'uWc Window Texture' Component:
 	- Type = Desktop
 	- Capture Frame Rate = 30
 - Test that it works by hitting the Play button. The Scene should be displaying your current Desktop #0
