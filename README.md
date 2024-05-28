@@ -20,7 +20,7 @@ Setting up your own CCK-PlayTogether Prop
 - Import the latest custom uWindowCapture package or your own AND uncheck `'Plugins/x86'` if present (You will get errors about missing types or namespaces. This is normal.)
 - Copy/Paste the latest [PlayTogetherLib DLL](https://github.com/Searaphim/CCK-PlayTogether/releases) (if you built CVR-PlayTogether yourself use `'CVR-PlayTogether/PlayTogetherLib/bin/Debug/netstandard2.1/CVRPlayTogetherLib.dll'` *Not the ILMerge'd one!*) to the root of `'CCK-PlayTogether/Assets/uWindowCapture'`
 - Load the 'PropScene' Scene found in `'CCK-PlayTogether/Assets/Scenes'`
-- If you're getting a missing script on the 'Desktop' prop prefab; you must open the prefab and set the script to point to 'uwcWindowTexture'
+- If you're getting a missing script on the 'PropScreen' prop prefab; you must open the prefab and set the script to point to 'uwcWindowTexture'
 - close and reopen the project and make sure you don't have any errors left.
 - On the 'PropScreen' prop: edit these parameters of the 'uWc Window Texture' Component:
 	- Type = Desktop
