@@ -10,6 +10,13 @@ Requirements
 - Unity 2021.3.23f1
 - ChilloutVR CCK v3.7
 
+HOW-TO
+----------
+
+- Simply import the CCK-PlayTogether.unitypackage from the github's Release page into your project.
+- There is a pre-made Scene and well as a Prop Screen prefab inside.
+- Upload.
+
 Setting up your own CCK-PlayTogether Prop
 ----------
 
@@ -25,5 +32,4 @@ Setting up your own CCK-PlayTogether Prop
 - On the 'PropScreen' prop: edit these parameters of the 'uWc Window Texture' Component:
 	- Type = Desktop
 	- Capture Frame Rate = 30
-- Test that it works by hitting the Play button. The Scene should be displaying your current Desktop #0
 - You are now ready for upload. Use this as an example for your custom props.
