@@ -1,6 +1,8 @@
 CCK-PlayTogether
 ===================
 
+A PUBLIC VERSION EXISTS IN-GAME. USE THE SEARCH FUNCTION AND TYPE CVRPlayTogether
+
 **CCK-PlayTogether** is an Unity project template for creating CCK Props that interact with [CVR-PlayTogether](https://github.com/Searaphim/CVR-PlayTogether) in ChilloutVR.
 
 Requirements
